@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node --experimental-specifier-resolution=node src/index.js",
     "start-local": "GOOGLE_APPLICATION_CREDENTIALS=~/.config/gcloud/legacy_credentials/brace@brace.to/sdrive-001-adeb2f2dcdc2.json nodemon --experimental-specifier-resolution=node src/index.js",
-    "deploy": "gcloud app deploy --no-promote --project=sdrive-001"
+    "deploy": "gcloud app deploy --no-promote --project=sdrive-001",
+    "dispatch": "gcloud app deploy dispatch.yaml --project=sdrive-001"
   },
   "dependencies": {
     "cors": "^2.8.5",
