@@ -217,6 +217,11 @@ iconv-lite@0.4.24:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
+import-meta-resolve@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/import-meta-resolve/-/import-meta-resolve-4.0.0.tgz#0b1195915689f60ab00f830af0f15cc841e8919e"
+  integrity sha512-okYUR7ZQPH+efeuMJGlq4f8ubUgO50kByRPyt/Cy1Io4PSRsPjxME+YlVaCOx+NIToW7hCsZNFJyTPFFKepRSA==
+
 inherits@2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
@@ -383,6 +388,13 @@ side-channel@^1.0.4:
     call-bind "^1.0.0"
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
+
+specifier-resolution-node@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/specifier-resolution-node/-/specifier-resolution-node-1.1.1.tgz#450ebe0da8a2309be968a7dcee70dcb15cf47765"
+  integrity sha512-LcJnmIPda9WqEDvRIh/UPnKO7O5Cd9x8hbDDIMIDd6MzP55s8XQ9lHzuSgOXDPxTeIDhx2vqpF2FMDB5nsfRzA==
+  dependencies:
+    import-meta-resolve "^4.0.0"
 
 statuses@2.0.1:
   version "2.0.1"
